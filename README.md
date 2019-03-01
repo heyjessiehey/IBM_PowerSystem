@@ -12,3 +12,15 @@ DDS, RPGLE, and CLLE
     - STUDENTS.PF
   - STUDENTS.*file.pf-dta
     - STUDNETS.MBR 
+
+- [x] LAB3
+  - QDDSSRC
+    - HWYTOLLDSP.DSPF
+  - QRPGLESRC
+    - HWYTOLLRPG.RPGLE
+
+- [x] LAB4
+  - QDDSSRC
+    - LAB4DSP.DSPF
+  - QCLLESRC
+    - LAB4CL2.CLLE
