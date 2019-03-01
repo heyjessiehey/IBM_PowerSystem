@@ -1,0 +1,6 @@
+000100190212pgm                                                                             
+000200190212   call strjob                                                                  
+000300190212   addlible bci433lib                                                           
+000400190212   dspsyslvl output(*display)                                                   
+000500190212   monmsg msgid(cpf2103)                                                        
+000600190212endpgm                                                                          

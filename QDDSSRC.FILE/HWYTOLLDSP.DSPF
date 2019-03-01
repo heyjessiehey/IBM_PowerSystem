@@ -1,0 +1,41 @@
+000001190301     A                                      DSPSIZ(24 80*DS3)
+000002190124     A          R TOLLINFO
+000003190124     A                                  1  2USER
+000004190124     A                                  1 71DATE
+000005190124     A                                      EDTCDE(Y)
+000006190121     A                                  3 25'H I G H W A Y     4 0 8    T O L -
+000007190121     A                                      L S'
+000008190228     A            KILOMETERS     3  0B  6 28RANGE(0 999)
+000009190121     A  99                                  DSPATR(PR)
+000010190121     A                                  6  5'Kilometers traveled:'
+000011190121     A                                  4 29'Trip Information'
+000012190121     A                                  8  7'Type of Vehicle:'
+000013190121     A                                 10  7'Time of Day:'
+000014190121     A                                 12  7'Transponder:'
+000019190121     A            VEHICLE        1   B  8 30VALUES('L' 'H' 'M')
+000020190121     A  99                                  DSPATR(PR)
+000021190121     A                                  8 32'(L - Light, H - Heavy, M -
+000022190121     A                                      Multiple Heavy)'
+000023190131     A            HOUR           2  0B 10 28RANGE(1 12)
+000024190121     A  99                                  DSPATR(PR)
+000026190121     A                                 10 32'(01 -12)'
+000027190121     A            AMPM           2   B 10 42VALUES('AM' 'PM')
+000028190121     A  99                                  DSPATR(PR)
+000029190121     A                                 10 46'(AM OR PM)'
+000030190121     A            TRANSPNDR      1A  B 12 29
+000031190121     A  99                                  DSPATR(PR)
+000032190121     A                                      VALUES('Y' 'N')
+000033190121     A                                 12 32'(Y  N)'
+000035190121     A          R SHOWTOLL
+000036190121     A                                      OVERLAY
+000037190121     A                                      CA03(03 'EXIT')
+000039190121     A                                 13 23'Applicable Toll Charges'
+000040190121     A                                 15 11'Toll Rate:'
+000041190121     A                                 17  9' Toll Charge:'
+000042190121     A                                 19 10'No Transponder Charge:'
+000043190121     A                                 21 11'T o t a l   C h a r g e:'
+000044190121     A            TOLLRATE       5Y 4O 15 36EDTCDE(1 $)
+000045190121     A            TOLLCHARGE     5Y 2O 17 36EDTCDE(1 $)
+000046190121     A                                 23  3'F3 - EXIT'
+000047190121     A            NOTRANSP       4  2O 19 38EDTCDE(1)
+000053190124     A            TOTALDUE       5  2O 21 37EDTWRD('   .  ')

@@ -1,0 +1,31 @@
+000100190212     A                                      DSPSIZ(24 80 *DS3)
+000200190212     A          R RECORD1
+000300190212     A                                      CA21(21 'Command line')
+000400190212     A                                      CA03(03 'Exit')
+000500190212     A                                  1 38'Lab 4'
+000600190212     A                                  5  3'Please select one of the following-
+000700190212     A                                       options:'
+000800190212     A                                  8 14'2.  Maximum Invalid Signon Attempt-
+000900190212     A                                      s allowed'
+001000190212     A                                  7 14'1.  Run Instructor''s Tickets Prog-
+001100190212     A                                      ram'
+001200190212     A                                  9 14'3.  Signed on User''s Message Queu-
+001300190212     A                                      e'
+001400190212     A                                 15 17'Option:'
+001500190212     A                                 23  4'F3 - Exit'
+001600190212     A                                 23 17'F21 - Comand Line '
+001700190212     A                                  1  3'GAYEON KO'
+001800190212     A                                  2  3'Your Full Name Above'
+001900190212     A                                 10 14'4.  Initial number of active jobs -
+002000190212     A                                      for storage allocation'
+002100190212     A                                 11 14'5.  Previous sign on by signed on -
+002200190212     A                                      user'
+002300190212     A                                  1 67DATE
+002400190212     A                                  2 65TIME
+002500190212     A            OPTION         2   B 15 25
+002600190212     A  30                                  DSPATR(RI)
+002700190212     A  30                                  DSPATR(PC)
+002800190212     A            MSGTXT1       70A  O 18  6
+002900190212     A  30                             15 29'Valid option must be entered'
+003000190212     A            MSGTXT2       70A  O 19  6
+003100190212
