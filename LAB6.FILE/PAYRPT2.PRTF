@@ -1,0 +1,58 @@
+000100190311     A          R TITLE
+000101190311     A                                  1 45'Weekly Payroll Report'
+000102190311     A                                  1 89'Page:'
+000103190311     A                                  1 94PAGNBR
+000104190311     A                                  1  3DATE(*YY)
+000105190311     A                                      EDTCDE(Y)
+000106190311     A                                  1 15TIME
+000107190311     A                                  2  3'NAME: GAYEON KO'
+000109190311     A          R COLHDG                    SPACEB(1)
+000110190321     A            SHIFTTYPE     30   O    36SPACEA(1)
+000111190311     A                                     6'Employee'
+000112190311     A                                      SPACEB(1)
+000113190311     A                                    19'Work'
+000114190311     A                                    29'Pay'
+000115190311     A                                    37'Hourly'
+000116190311     A                                    47'Hours'
+000117190311     A                                    56'Regular'
+000118190311     A                                    71'Overtime'
+000119190311     A                                    89'Total'
+000120190311     A                                     7'Number'
+000121190311     A                                      SPACEB(1)
+000122190311     A                                    19'Shift'
+000123190311     A                                    29'Grade'
+000124190311     A                                    38'Rate'
+000125190311     A                                    47'Worked'
+000126190311     A                                    58'Pay'
+000127190311     A                                    74'Pay'
+000128190311     A                                    90'Pay'
+000129190311     A          R EMPDETAIL                 SPACEB(2)
+000130190311     A            EMPNUM    R    9S 0      5REFFLD(ALLSHIFT/EMPNUM SENECAPAY/A-
+000131190311     A                                      LLSHIFT)
+000132190311     A                                      EDTWRD('0   -   -   ')
+000133190311     A            WORKSHIFT R    1A       20REFFLD(ALLSHIFT/WORKSHIFT +
+000134190311     A                                      SENECAPAY/ALLSHIFT)
+000135190311     A            PAYGRADE  R             30REFFLD(ALLSHIFT/PAYGRADE +
+000136190311     A                                      SENECAPAY/ALLSHIFT)
+000137190311     A            HOURLYRATE     5  2     37EDTCDE(1)
+000138190311     A            HRSWORKED R             48REFFLD(ALLSHIFT/HRSWORKED +
+000139190311     A                                      SENECAPAY/ALLSHIFT)
+000140190311     A            REGULARPAY     7  2     55EDTCDE(1)
+000141190311     A            OVERPAY        7  2     70EDTCDE(1)
+000142190311     A            TOTALPAY       7  2     86EDTCDE(1)
+000143190311     A          R TOTALS                    SPACEB(2)
+000144190311     A                                    41'Totals:'
+000145190311     A            TOTREGPAY      9  2     51
+000146190311     A                                      EDTCDE(1 $)
+000147190311     A            TOTOVTPAY      9  2     66EDTCDE(1 $)
+000148190311     A            TOTEMPPAY      9  2     82EDTCDE(1 $)
+000149190311
+000150190321     A*%%RS+<record-sequences>
+000151190321     A*%%RS+ <sequence name="REPORT1">
+000152190321     A*%%RS+  <device type="printer" width="132" height="66" />
+000153190321     A*%%RS+  <record-write record-format="TITLE" />
+000154190321     A*%%RS+  <record-write record-format="COLHDG" />
+000155190321     A*%%RS+  <record-write record-format="EMPDETAIL" />
+000156190321     A*%%RS+  <record-write record-format="TOTALS" />
+000157190321     A*%%RS+ </sequence>
+000158190321     A*%%RS </record-sequences>
