@@ -1,0 +1,45 @@
+000100190407     A          R HEADINGS
+000101190407     A                                  2  2DATE
+000102190407                                            EDTCDE(Y)
+000103190407     A                                  2 50'H I G H W A Y  T O L L  R E P O R
+000104190407     A                                      T'
+000105190407     A                                  4  2'License'
+000106190407     A                                  5  3'Plate'
+000107190407     A                                  4 21'Name'
+000108190407     A                                  4 44'Vehicle'
+000109190407     A                                  4 69'Entry'
+000110190407     A                                  5 69'hour'
+000111190407     A                                  4 78'Kilometers'
+000112190407     A                                  5 78'Traveled'
+000113190407     A                                  4 91'transponder'
+000114190407     A                                  5105'Owing'
+000115190407     A                                  4113'New Balance'
+000116190407     A                                  4105'Amount '
+000117190407     A                                  5 92'Charge'
+000118190407     A                                  2122PAGNBR
+000119190407     A                                  2116'Page:'
+000120190407     A                                  4 57'Date'
+000121190407     A                                  5 45'Type'
+000122190407     A          R DETAIL                    SPACEB(2)
+000123190407     A            PLATE     R              2REFFLD(TOLLCUST/PLATE  +
+000124190407     A                                      BCI433LIB/TOLLCUST)
+000125190407     A            FULLNAME      31        12
+000126190407     A            VTYPE          1        47
+000127190407     A            ENTRYDATE R             55REFFLD(TOLLS/ENTRYDATE
+000128190407     A                                      BCI433LIB/TOLLS)
+000129190407     A            ENTRYHOUR R             70REFFLD(TOLLS/ENTRYHOUR  +
+000130190407     A                                      BCI433LIB/TOLLS)
+000131190407     A            KILOMETERSR             79REFFLD(TOLLS/KILOMETERS  +
+000132190407     A                                      BCI433LIB/TOLLS)
+000133190407     A                                      EDTCDE(1)
+000134190407     A            NOTRANSP       4  2     93EDTCDE(1)
+000135190407     A            TOTALDUE       5  2    105EDTCDE(1)
+000136190407     A            TOTALOWINGR            114REFFLD(TOLLCUST/TOTALOWING +
+000137190407     A                                      BCI433LIB/TOLLCUST)
+000138190407     A                                      EDTCDE(1)
+000139190407     A          R TOTALS                    SPACEB(1)
+000140190407     A                                    81'TOTAL OWING:'
+000141190407     A                                      SPACEB(1)
+000142190407     A            FINALTOTAL     8  2     95EDTCDE(1 $)
+000143190407
+000144190407

@@ -1,0 +1,13 @@
+000100190407     A          R RECORD1
+000101190407     A                                  2 70DATE
+000102190407
+000103190407     A                                      EDTCDE(Y)
+000104190407     A                                  2  3USER
+000105190407     A                                  2 25'HIGHWAY TOLLS SUMMARY'
+000106190407     A                                  5  9'CUSTOMERS ON FILE: '
+000107190407     A                                  6  5'CUSTOMERS NOT ON FILE: '
+000108190407     A                                  8 15'TOTAL OWING: '
+000109190407     A            FOUNDTOT       4  0O  5 30EDTCDE(1)
+000110190407     A            UNKNOWNTOT     4  0O  6 30EDTCDE(1)
+000111190407     A            FINALTOTAL     8  2O  8 29EDTCDE(1 $)
+000112190407
